@@ -681,7 +681,7 @@ persistence:
   ##   set, choosing the default provisioner.  (gp2 on AWS, standard on
   ##   GKE, AWS & OpenStack)
   ##
-  storageClass:
+  storageClass: openebs-jiva-default
   accessModes:
     - ReadWriteOnce
   size: 8Gi
